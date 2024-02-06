@@ -1,5 +1,5 @@
 import express from 'express'
-import { ProductManager } from './config/ProductManager'
+import { ProductManager } from './config/ProductManager.js'
 
 const app = express()
 const PORT = 8000
@@ -15,7 +15,7 @@ app.get('/products',async (req,res)=>{
     const limite = parseInt(limit)
 
     //NaN en If es false
-    if (limite ) {//Si el string es no numerico devuelve NaN
+    if (limite) {//Si el string es no numerico devuelve NaN
         if (limite < 0) {
             res.send('Ingrese valor valido en los queries')
         } else{
@@ -23,15 +23,15 @@ app.get('/products',async (req,res)=>{
             res.send(prodsLimit)
         }
     } else {
-        res.send('Ingrese valor valido en los queries')
+        res.send(prods)
     }
 
     
 })
 
-app.get('/productos/:idProd', async (req,res)=>{
-    const idProducto = req.params.idProd;
-    const prod = await productManager.getProductsById()
+app.get('/products/:idProd', async (req,res)=>{
+    const idProducto = req.params.idProd
+    const prod = await productManager.getProductsById(idProducto)
     
     res.send(prod)
 })

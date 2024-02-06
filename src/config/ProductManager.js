@@ -35,7 +35,7 @@ export class ProductManager {
     //Traigo un producto segun su id
     async getProductsById(id) {
         const products = JSON.parse(await fs.readFile(this.path, 'utf-8'))
-        const prod = products.find((p) => p.id == id)
+        const prod = products.find((p) => p.id === id)
         if (prod) {
             return prod
         } else {
