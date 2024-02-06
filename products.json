@@ -1,0 +1,94 @@
+[
+    {
+        "id": 1,
+        "nombre": "Balón de fútbol",
+        "categoria": "Deportes",
+        "precio": 140,     
+        "stock" : 5,
+        "descripcion": "Balón de fútbol de alta calidad, fabricado con materiales duraderos. Ideal para jugar al fútbol en cualquier superficie.",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_764390-MLU26715050841_012018-O.webp"        
+    },
+    {
+        "id": 2,
+        "nombre": "Zapatillas de running",
+        "categoria": "Indumentaria",
+        "precio": 34,
+        "stock": 15,      
+        "descripcion": "Zapatillas de running de alto rendimiento, diseñadas para ofrecer la máxima comodidad y soporte. Ideales para correr largas distancias.",
+        "imagen": "../../assets/zapatillas.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Tabla de surf",
+        "categoria": "Deportes",
+        "precio" : 40,
+        "stock":2,
+        "descripcion": "Tabla de surf de alta calidad, fabricada con materiales duraderos. Ideal para surfear en cualquier condición.",
+        "imagen": "https://contents.mediadecathlon.com/p1758423/k$67bbeda9f04f2087ee325b8f841778cc/tabla-surf-7-evolutiva-espuma-olaian-500-pack-tabla-leash-3-quillas.jpg?format=auto&quality=40&f=800x800"
+    },
+    {
+        "id": 4,
+        "nombre": "Hoodie deportivo",
+        "categoria": "Indumentaria",        
+        "precio" : 15,
+        "stock":1000,
+        "descripcion": "Hoodie deportivo fabricado en tela de alta duracion.",
+        "imagen": "data:image/jpeg;base64,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"
+    },
+    {
+        "id": 5,
+        "nombre": "Raqueta de tenis",
+        "categoria": "Deportes",
+        "precio" : 40,
+        "stock":2,
+        "descripcion": "Raqueta de tenis de alta calidad, fabricada con materiales duraderos. Ideal para jugar al tenis a un nivel avanzado.",
+        "imagen": "https://f.fcdn.app/imgs/61f58e/electroventas.com.uy/elecuy/d089/original/catalogo/WILWR082610WILWR0826101/1500-1500/raqueta-tenis-wilson-us-open-junior-25-original-raqueta-tenis-wilson-us-open-junior-25-original.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Patines en línea",
+        "categoria": "Deportes",        
+        "precio" : 40,
+        "stock":2,
+        "descripcion": "Patines en línea de alta calidad, fabricados con materiales duraderos. Ideales para patinar en cualquier superficie.",
+        "linkImg": "https://contents.mediadecathlon.com/p2075738/k$779c90b7eaa2e5ff4db983ed81dfb629/patines-linea-hombre-oxelo-fitness-fit100-negro.jpg?format=auto&quality=40&f=800x800"
+    }
+,
+    {
+        "id": 7,
+        "nombre": "Mancuernas",
+        "categoria": "Gym",        
+        "precio" : 15,
+        "stock":10,
+        "descripcion": "Mancuernas hexagonales de hierro recubierto. Peso: 10kgs",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_658427-MLU70605505516_072023-O.webp"
+    },
+    {
+        "id": 8,
+        "nombre": "Discos olímpicos",
+        "categoria": "Gym",        
+        "precio" : 20,
+        "stock":20,
+        "descripcion": "Discos de hierro recubiertos en goma absorbe golpes de alta duracion. Peso: 25kgs",
+        "imagen": "https://www.tupropiogym.com/wp-content/uploads/2019/07/disco-olimpico-halterofilia-fitness-25-02_1-e1563191478756.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Barra olímpica",
+        "categoria": "Gym",        
+        "precio" : 50,
+        "stock":5,
+        "descripcion": "Barra olímpica de 2mts, fabricados con aluminio de alta calidad. Peso: 15kgs.",
+        "imagen": "data:image/jpeg;base64,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"
+    },
+    {
+        "id": 10,
+        "nombre": "Tank top",
+        "categoria": "Indumentaria",        
+        "precio" : 10,
+        "stock":10,
+        "descripcion": "Tank top de algodón de alta calidad. Ideales para el verano.",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI1L-5jXY-Kqi84iB2L-B5oHikAFTE1cUK-MYZ6KAubpKVCMhGmGjpYWT_yO8MuI35lAY&usqp=CAU"
+    }
+
+]
